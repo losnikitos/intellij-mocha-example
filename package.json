@@ -1,0 +1,18 @@
+{
+  "name": "readme-table",
+  "version": "1.0.0",
+  "description": "<style>     table {         border-spacing: 5px;     }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.yandex-team.ru:losnikitos/readme-table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
