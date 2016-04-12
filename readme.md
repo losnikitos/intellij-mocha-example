@@ -27,13 +27,13 @@
     }
 
     .blue2 {
-        background-color: #95c2ed;
+        
     }
 </style>
 <table>
     <tr>
         <td rowspan="3" class="box blue1">gulp</td>
-        <td class="box blue2">gulp deps</td>
+        <td class="box blue2" style="background-color: #95c2ed;">gulp deps</td>
         <td class="desc">npm i<br>
             cd server && npm i<br>
             cd static && npm i<br>
