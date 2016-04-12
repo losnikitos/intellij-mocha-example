@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests --reporter node_modules/mocha-intellij/lib/mochaIntellijReporter.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "mocha-intellij": "https://github.com/JetBrains/mocha-intellij"
   }
 }
